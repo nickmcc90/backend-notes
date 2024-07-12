@@ -1,1 +1,104 @@
 Beginning of notes.
+
+To understand what the backend is, we have to understand what
+full stack means. A full stack is a sandwich of technologies that
+come together to make a product or an application using different
+segments of code.
+
+Frontend + backend.
+
+Backend is:
+Databases
+Serverless computing
+Queues / jobs
+Authentication
+Testing
+CI/CD 
+ORMs
+Caching
+Security
+APIs
+Web Servers
+Microservices
+Version Control
+Testing
+
+To make a backend, you need programming languages. Like
+python (flask and django)
+javascript (express.js, hono, rest.js)
+ruby (ruby on rails)
+PHP (laravel)
+C# (ASP.NET)
+Java (spring)
+Rust (rocket )
+
+To understand backend a little more, let's look at what the internet is.
+The internet is a product of the full stack.
+It's basically just a bunch of frontends and backends and programs around the world
+all working with each other.
+
+Frontend is client side and backend is server side. Server side
+is code that runs somewhere other than your computer.
+
+The cloud is server side backend stuff.
+
+Web servers - How do things go live on the internet?
+
+Web servers are backend server side stuff. Client side
+things can send network requests to web servers.
+
+Databases: There are two types.
+1. Structured query language database SQL, spreadsheet.
+  - MySQL, PostgreSQL, SQLite
+2. Dictionary type databases, NoSQL database.
+  - MongoDB, firebase, Redis
+3. ORMs. A language to interface with databases.
+  - Sequelize
+
+APIs -- How do websites talk to each other?
+Network requests have a path that ends at an API endpoint.
+An endpoint is located by a url.
+
+Network requests come in different types, like GET, POST, PUT, DELETE.
+These methods are done on RESTful APIs.
+
+Security & Authentication - How do websites know it's me?
+A huge part of backend development is determining who is
+logging in to the website. Making sure that other people aren't
+signing you up for things. 
+This can also mean attacks on the backend code itself, like
+SQL injections (grabbing code from databases), and DDOS attacks
+(simulating high traffic to a website to increase their costs).
+
+How do we protect this stuff? Hashing, encryption, and more!
+
+CI/CD - How do coders ensure their code works before putting it online?
+Imagine a scenario where you work at a company and you upload code live for
+a website and its buggy. You need a tool to test it first.
+
+Basically, this step is tracking effective deployment of your code.
+
+Cloud & Serverless - Can we make websites run without traditional servers?
+Yes. It is a more streamlined process when working with the cloud. Instead
+of building an API endpoint to grab data, you can give your code to the cloud
+and it does it for you. AWS and GCP have many serverless resources to take
+advantage of. Cost benefit analysis comes into play here too.
+
+Testing & Monitoring - Does your code do what it's supposed to?
+It is unimaginable how unpredictable users can be on a website.
+- unit tests (testing individual pieces of code)
+- integration tests (testing relationship between things)
+- end to end tests (comprehensive testing)
+
+Also monitoring users. Looking at what we did predict, what we didn't
+predict.
+
+There's much more that goes on with backend, such as:
+- Caching
+- Microservers
+- Version control
+- Queues
+- Background processing
+- Performance optimization
+- Documentation
+- Versioning
